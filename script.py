@@ -10,6 +10,7 @@ data = pd.read_csv('covid-cases.csv', low_memory=False)
 class CovidCase():
     """
     This is the simple class we will be using to perform parse functions.
+
     """
 
     def __init__(self, date, country):
